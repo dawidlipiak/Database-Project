@@ -10,7 +10,7 @@ public class Pracownik {
     private Connection connection;
     private static final String DB_URL = "jdbc:mysql://localhost:3306/rental";
     private static final String USER = "root";
-    private static final String PASS = "D1@3lipa";
+    private static final String PASS = "root";
     Pracownik() {
         try {
             connection = DriverManager.getConnection(DB_URL, USER, PASS);
