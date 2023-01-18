@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Admin {
     static final String DB_URL = "jdbc:mysql://localhost:3306/rental";
     static final String USER = "root";
-    static final String PASS = "D1@3lipa";
+    static final String PASS = "root";
 
     Scanner scan;
     Statement statement;
